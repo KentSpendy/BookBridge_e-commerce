@@ -1,6 +1,6 @@
 # bookbridgev1
 
-A new Flutter project.
+Book bridge is a book library e-commerce trading platform made by flutter and dart with firebase responsible for authentication, real-time p2p messaging, storage, database, alert/notifications, and other features. 
 
 ## Getting Started
 
