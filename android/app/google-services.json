@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "407625670847",
+    "project_id": "bookbridge-version1-desktop",
+    "storage_bucket": "bookbridge-version1-desktop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407625670847:android:b9851dfe9537f7aafd660a",
+        "android_client_info": {
+          "package_name": "com.example.bookbridgev1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYL1k-5v-pPOCEWP98LxHvilB2hYVjgFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bookbridge-version1-desktop",
+          "appId": "1:407625670847:android:b9851dfe9537f7aafd660a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bookbridge-version1-desktop",
+          "configurations": {
+            "android": "1:407625670847:android:b9851dfe9537f7aafd660a",
+            "ios": "1:407625670847:ios:6d5fe6cfc42c6ad5fd660a",
+            "macos": "1:407625670847:ios:6d5fe6cfc42c6ad5fd660a",
+            "web": "1:407625670847:web:9aa794216ffa06bdfd660a",
+            "windows": "1:407625670847:web:d914701eb696e6d0fd660a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
